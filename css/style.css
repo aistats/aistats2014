@@ -1,3 +1,7 @@
+---
+---
+/*The previous two lines of --- (YAML block) are needed so that {{ site.baseurl }} 
+ * is resolved correctly. */
 body{
 	margin:0 auto; 
 /*        margin: 0 0;*/

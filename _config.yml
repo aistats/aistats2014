@@ -1,9 +1,3 @@
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      layout: "default"
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
