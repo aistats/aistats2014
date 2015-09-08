@@ -4,7 +4,7 @@ body{
 	padding:0;
 	font:76% Verdana,Tahoma,Arial,sans-serif;
 	background-color:#777 ;
-        background-image: url(/img/icelandbackground.jpg) ;
+        background-image: url({{ site.baseurl }}/img/icelandbackground.jpg) ;
         background-repeat: tile ;
         background-position: top left ;      
 	color:#303030;
@@ -20,7 +20,7 @@ td.leftborder{
 /*        background-color: #777; */
 /*        background-color: red; */
         vertical-align: top;
-        background-image: url(/img/leftborder.png) ;
+        background-image: url({{ site.baseurl }}/img/leftborder.png) ;
         background-repeat: tile ;
         background-position: top left ;      
 }
@@ -35,7 +35,7 @@ td.rightborder{
 /*        background-color: #777; */
 /*       background-color: red; */
         vertical-align: top;
-        background-image: url(/img/rightborder.png) ;
+        background-image: url({{ site.baseurl }}/img/rightborder.png) ;
         background-repeat: tile ;
         background-position: top left ;      
 }
@@ -50,7 +50,7 @@ td.bottomleftborder{
 /*        background-color: #777; */
 /*       background-color: red; */
         vertical-align: top;
-/*        background-image: url(/img/bottomleftborder.png) ;*/
+/*        background-image: url({{ site.baseurl }}/img/bottomleftborder.png) ;*/
         background-repeat: tile ;
         background-position: top left ;      
 }
@@ -130,7 +130,7 @@ td.bottomcrightborder{
 	background-color: #FFF;
 	color: #0033cc;  
 */
-        background-image: url(/img/logomiddle.png) ;
+        background-image: url({{ site.baseurl }}/img/logomiddle.png) ;
         background-repeat: no-repeat ;
         background-position: top left ;
 	height:187px;
