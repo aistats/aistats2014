@@ -3,99 +3,52 @@ title: Committees
 layout: default
 ---
 
-         <h2>Program Chairs</h2>
-            <div>
-               <ul>
- <li><a href="http://users.ics.aalto.fi/sami/">Samuel Kaski</a>, <i>Aalto University and University of Helsinki</i></li>
- <li><a href="http://www.helsinki.fi/bsg/">Jukka Corander</a>, <i>University of Helsinki</i></li>
-               </ul>
-             </div>
+<h1>AISTATS*2014 Organizing Committees</h1>
 
-         <h2>Local Chair</h2>
-            <div>
-               <ul>
- <li><a href="http://www.ru.is/kennarar/deong/">Deon Garrett</a>, 
-<i>School of Computer Science, Reykjavik University and 
-Icelandic Institute for Intelligent Machines</i></li>
-               </ul>
-            </div>
-
-         <h2>Sponsorship Chair</h2>
-             <div>
-               <ul>
- <li><a href="http://www.cs.helsinki.fi/en/people/glowacka">Dorota Glowacka</a>, <i>University of Helsinki</i></li>
-               </ul>
-             </div>
-
-         <h2>Publicity Chair</h2>
-            <div>
-               <ul>
- <li><a href="http://users.ics.aalto.fi/jtpelto/">Jaakko Peltonen</a>, <i>Aalto University and University of Tampere</i></li>
-               </ul>
-            </div>
-
-         <h2>Publication Chair</h2>
-            <div>
-               <ul>
- <li><a href="http://www.hiit.fi/u/ahonkela/">Antti Honkela</a>, <i>University of Helsinki</i></li>
-               </ul>
-            </div>
+{% if site.conference.chairs %}
+{% for chair in site.conference.chairs %}
+{% include listchairs.html %}
+{% endfor %}
+{% endif %}
 
 
 <h2>Senior Program Committee</h2>
 
 <ul>
-<li>Edoardo Airoldi, <i>Harvard University</i><br>
-<li>Florence d'Alche-Buc, <i>Universit&eacute; d'Evry-Val d'Essonne</i><br>
-<li>C&eacute;dric Archambeau, <i>Amazon</i><br>
-<li>Peter Auer, <i>University of Leoben</i><br>
-<li>Erik Aurell, <i>KTH</i><br>
-<li>Yoshua Bengio, <i>Universit&eacute; de Montr&eacute;al</i><br>
-<li>Carlo Berzuini, <i>University of Manchester</i><br>
-<li>Jeff A. Bilmes, <i>University of Washington</i><br>
-<li>Wray Buntine, <i>NICTA</i><br>
-<li>Lawrence Carin, <i>Duke University</i><br>
-<li>Guido Consonni, <i>Universit&agrave; Cattolica del Sacro Cuore</i><br>
-<li>Koby Crammer, <i>The Technion</i><br>
-<li>Emily B. Fox, <i>University of Washington</i><br>
-<li>Mehmet G&ouml;nen, <i>Sage Bionetworks</i><br>
-<li>Aapo Hyv&auml;rinen, <i>University of Helsinki</i><br>
-<li>Timo Koski, <i>KTH</i><br>
-<li>John Paisley, <i>Columbia University</i><br>
-<li>Jan Peters, <i>Technische Universit&auml;t Darmstadt</i><br>
-<li>Volker Roth, <i>Universit&auml;t Basel</i><br>
-<li>Yevgeny Seldin, <i>Queensland University of Technology and UC Berkeley</i><br>
-<li>Scott Sisson, <i>University of New South Wales</i><br>
-<li>Suvrit Sra, <i>Max-Planck Institute for Intelligent Systems</i><br>
-<li>Masashi Sugiyama, <i>Tokyo Institute of Technology</i><br>
-<li>Joe Suzuki, <i>Osaka University</i><br>
-<li>Bill Triggs, <i>Centre National de Recherche Scientifique</i><br>
-<li>Aki Vehtari, <i>Aalto University</i><br>
-<li>Jean-Philippe Vert, <i>Mines ParisTech and Curie Institute</i><br>
-<li>Stephen Walker, <i>University of Texas at Austin</i><br>
-<li>Kun Zhang, <i>Max Planck Institute for Intelligent Systems</i><br>
+  <li>Edoardo Airoldi, <i>Harvard University</i></li>
+<li>Florence d'Alche-Buc, <i>Universit&eacute; d'Evry-Val d'Essonne</i></li>
+<li>C&eacute;dric Archambeau, <i>Amazon</i></li>
+<li>Peter Auer, <i>University of Leoben</i></li>
+<li>Erik Aurell, <i>KTH</i></li>
+<li>Yoshua Bengio, <i>Universit&eacute; de Montr&eacute;al</i></li>
+<li>Carlo Berzuini, <i>University of Manchester</i></li>
+<li>Jeff A. Bilmes, <i>University of Washington</i></li>
+<li>Wray Buntine, <i>NICTA</i></li>
+<li>Lawrence Carin, <i>Duke University</i></li>
+<li>Guido Consonni, <i>Universit&agrave; Cattolica del Sacro Cuore</i></li>
+<li>Koby Crammer, <i>The Technion</i></li>
+<li>Emily B. Fox, <i>University of Washington</i></li>
+<li>Mehmet G&ouml;nen, <i>Sage Bionetworks</i></li>
+<li>Aapo Hyv&auml;rinen, <i>University of Helsinki</i></li>
+<li>Timo Koski, <i>KTH</i></li>
+<li>John Paisley, <i>Columbia University</i></li>
+<li>Jan Peters, <i>Technische Universit&auml;t Darmstadt</i></li>
+<li>Volker Roth, <i>Universit&auml;t Basel</i></li>
+<li>Yevgeny Seldin, <i>Queensland University of Technology and UC Berkeley</i></li>
+<li>Scott Sisson, <i>University of New South Wales</i></li>
+<li>Suvrit Sra, <i>Max-Planck Institute for Intelligent Systems</i></li>
+<li>Masashi Sugiyama, <i>Tokyo Institute of Technology</i></li>
+<li>Joe Suzuki, <i>Osaka University</i></li>
+<li>Bill Triggs, <i>Centre National de Recherche Scientifique</i></li>
+<li>Aki Vehtari, <i>Aalto University</i></li>
+<li>Jean-Philippe Vert, <i>Mines ParisTech and Curie Institute</i></li>
+<li>Stephen Walker, <i>University of Texas at Austin</i></li>
+<li>Kun Zhang, <i>Max Planck Institute for Intelligent Systems</i></li>
 </ul>
 
+<h2>Advisory Board for European Meetings</h2>
 
-
-<!--
-         <h2>Proceedings Chair</h2>
-             <div>
-               <ul>
- <li><a href="url">N. N.</a>, affiliation</li>
-               </ul>
-             </div>
-
-         <h2>Senior Program Committee</h2>
-               <ul>
-    <li> <a href="url"> N. N.</a>, affiliation
-               </ul>
-             </div>
--->
-
-<p><h2>Advisory Board for European Meetings</h2>
-
-<p>The European meetings of AISTATS are organized by the European Society for Artificial Intelligence and Statistics. Its advisory board is:
+<p>The European meetings of AISTATS are organized by the European Society for Artificial Intelligence and Statistics. Its advisory board is:</p>
 <ul>
 <li>Nicol&ograve; Cesa Bianchi,    &nbsp;<i>Universit&agrave; degli Studi di Milano</i></li>
 <li>Phil Dawid,             &nbsp;<i>University of Cambridge</i></li>
@@ -116,8 +69,6 @@ Icelandic Institute for Intelligent Machines</i></li>
 <li>Bernhard Sch&ouml;lkopf,    &nbsp;<i>Max Planck Institute, T&uuml;bingen</i></li>
 </ul>
 
-
-<br><br>
 <h3>Local Contact Email Address</h3>
 
 The local contact email address for AISTATS 2014 is <a href="mailto:aistats@iiim.is">aistats@iiim.is</a>.
