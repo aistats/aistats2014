@@ -31,7 +31,7 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v33/
     show: true
-  room: Room
+  room: 
   venue: The Grand Hotel
   venue_url: https://www.islandshotel.is/is/hotelin/grand-hotel-reykjavik
   location: Reykjavic, Iceland
