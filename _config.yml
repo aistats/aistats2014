@@ -16,69 +16,13 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: aistats/jekyll-theme
 style: aistats
 
 ghub:
   edit: true
   repository: aistats2014
 banner: resort.png
-
-conference:
-  draft: false # set to True if the programme is draft only.
-  image: bluelagoon.png
-  hide_tentative: true
-  proceedings:
-    url: http://proceedings.mlr.press/v33/
-    show: true
-  room: 
-  venue: The Grand Hotel
-  venue_url: https://www.islandshotel.is/is/hotelin/grand-hotel-reykjavik
-  location: Reykjavic, Iceland
-  full_name: Artificial Intelligence and Statistics
-  short_name: AISTATS
-  name: Artificial Intelligence and Statistics
-  year: 2014
-  instance: 17th
-  styling: International Conference on
-  dates:
-  - 2014-04-22
-  - 2014-04-25
-  chairs:
-  - type: Programme Chairs
-    people:
-    - family: Kaski
-      given: Samuel
-      url: http://users.ics.aalto.fi/sami/
-      institute: Aalto University and University of Helsinki
-    - family: Corander
-      given: Jukka
-      url: http://www.helsinki.fi/bsg/http://www.ms.k.u-tokyo.ac.jp/sugi/
-      institute: University of Helsinki
-  - type: Local Chair
-    people:
-    - family: Garrett
-      given: Deon
-      url: http://www.ru.is/kennarar/deong/
-      institute: School of Computer Science, Reykjavik University and Icelandic Institute for Intelligent Machines
-  - type: Sponsorship Chair
-    people:
-    - family: Glowacka
-      given: Dorota
-      url: http://www.cs.helsinki.fi/en/people/glowacka
-      institute: University of Helsinki
-  - type: Publicity Chair
-    people:
-    - family: Peltonen
-      given: Jaakko
-      url: http://users.ics.aalto.fi/jtpelto/
-      institute: Aalto University and University of Tampere
-  - type: Publication Chair
-    people:
-    - family: Honkela
-      given: Antti
-      url: http://www.hiit.fi/u/ahonkela/
-      institute: University of Helsinki
 
 # Build settings
 markdown: kramdown
